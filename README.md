@@ -9,13 +9,13 @@ The following pipeline was used for mapping and aligning cDNA sequences on the a
 **Input data:**
 
 - [Assembled](https://github.com/MoreiraCN/Assembling_Illumina_sequences) genome in fasta format.
-- Transcripts file from a reference species ([Mus_musculus.GRCm38.cds.all.fa](http://ftp.ensembl.org/pub/release-104/fasta/mus_musculus/cds/)).
+- Transcript coding sequences from a reference species ([Mus_musculus.GRCm38.cds.all.fa](http://ftp.ensembl.org/pub/release-104/fasta/mus_musculus/cds/)).
 
 **Step 1 > Index build:**
 
 `/gmap_build  -D index_folder -d sample_name assembly.fa`
 
-**Step 2 > Mapping and aligning:**
+**Step 2 > Mapping and alignment:**
 
 `/gmap -t 20 -D index_folder -p 1 --gff3-add-separators=0 -n 1 --min-trimmed-coverage=0.70 --min-identity=0.90 --nofails -f gff3_gene -d sample_name transcripts_file.cds.all.fa > output_file.gff3`
 

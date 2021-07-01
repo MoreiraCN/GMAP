@@ -1,4 +1,4 @@
-### GMAP
+### Genomic annotation with GMAP
 
 The following pipeline was used for mapping and aligning cDNA sequences of *Mus musculus* on the assembled genome of the species *Holochilus sciureus* (2n = 56, NF = 56), a Neotropical rodent of tribe Oryzomyini.
 

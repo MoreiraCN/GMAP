@@ -21,4 +21,4 @@ The following pipeline was used for mapping and aligning cDNA sequences of *Mus 
 
 **Parameters used:**
 
-- All parameters used are available at [GMAP manual](http://research-pub.gene.com/gmap/src/README).
+- All parameters used are available at [GMAP manual](http://research-pub.gene.com/gmap/).
